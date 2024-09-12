@@ -28,7 +28,7 @@
           <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Thesis</a>
+          <a class="nav-link" href="./thesis.html">Thesis</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Value</a>
@@ -37,7 +37,7 @@
           <a class="nav-link" href="#">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Join the waitlist</a>
+          <a class="nav-link" id="book-time-button">Join the waitlist</a>
         </li>
       </ul>
     </div>
@@ -218,10 +218,10 @@
         <!-- Right Section -->
         <div class="col-md-4 text-right d-flex align-items-center justify-content-end">
           <p class="mb-0 me-3" style="color: white;">&copy; 2024</p>
-          <a href="https://www.linkedin.com" target="_blank" class="social-icon me-2">
+          <a href="https://www.linkedin.com/company/test-army-ai" target="_blank" class="social-icon me-2">
             <img src="./assets/images/icons8-linkedin-48.png" alt="LinkedIn" class="social-logo">
           </a>
-          <a href="https://twitter.com" target="_blank" class="social-icon">
+          <a href="https://x.com/TestarmyAI" target="_blank" class="social-icon">
             <img src="./assets/images/icons8-twitter-48.png" alt="Twitter" class="social-logo">
           </a>
         </div>
@@ -310,5 +310,12 @@
       });
     });
   </script>
+
+<script>
+    document.getElementById('book-time-button').addEventListener('click', function() {
+        document.getElementById('waitlist-domain').scrollIntoView({ behavior: 'smooth' });
+    });
+    </script>
+
 </body>
 </html>
